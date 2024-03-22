@@ -29,13 +29,14 @@ body {
 }
 .recipe {
 display: flex;
-padding: 10px;
 gap: 10px;
 color: white;
 align-items: center;
 margin-bottom: 30px;
 background-color: var(--primary-black);
 border-radius: 7px;
+overflow: hidden;
+
 
 }
 .recipe p {
@@ -55,13 +56,14 @@ margin-left: auto;
 }
 .rec-photo{
 max-width: 200px;
-border-radius: 10px;
-overflow: hidden;
 display: flex;
+align-self: stretch;
 }
 .rec-desc {
 flex: 1;
 line-height: 30px;
+padding-bottom: 20px;
+padding-right: 10px;
 }
 img {
 max-width: 100%;
@@ -73,12 +75,21 @@ max-height: 300px;
       padding: 10px;
   }
   .recipe {
+    padding: 0px;
     flex-direction: column;
     text-align: center;
     line-height: 24px;
   }
   .rec-photo {
-    max-width: 400px;
+    max-width: 100%;
+    width: 100%;
+    border-radius: 0px;
+
+  }
+  .rec-photo img {
+    width: 100%;
+    max-height: 100%;
+
   }
   a {
     margin-left: auto;

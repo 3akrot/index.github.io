@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Recipe</title>
+    <style>
+        :root {
+            --white: #EEEEEE;
+            --main-color: #00ADB5;
+            --secondary-black: #393E46;
+            --primary-black: #222831;
+            --transparent-black: #393E46d2;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--white);
+            background-color: var(--primary-black);
+        }
+
+        .container {
+            max-width: 800px;
+
+            margin: 0 auto;
+            padding: 20px;
+            background-color: var(--secondary-black);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: var(--white);
+        }
+
+        .recipe-photo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .recipe-photo img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .ingredients h3,
+        .instructions h3 {
+            color: var(--white);
+            margin-bottom: 10px;
+        }
+
+        ul,
+        ol {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 5px;
+            color: var(--secondary-black);
+        }
+
+        .wrapper {
+            overflow: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            min-width: 390px;
+
+        }
+
+        th {
+            background-color: var(--primary-black);
+
+        }
+
+        td,
+        th {
+            padding: 5px;
+            border: 1px solid var(--primary-black);
+            text-align: center;
+            color: white;
+        }
+
+        span {
+            color: var(--main-color);
+        }
+
+        @media screen and (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Sample Recipe</h1>
+
+        <div class="recipe-photo">
+            <img src="" alt="Recipe Photo">
+        </div>
+
+        <div class="ingredients">
+            <h3>Ingredients:</h3>
+            <ul>
+                <li>Ingredient 1</li>
+                <li>Ingredient 2</li>
+                <li>Ingredient 3</li>
+            </ul>
+        </div>
+
+        <div class="instructions">
+            <h3>Instructions:</h3>
+            <ol>
+                <li>Step 1: Instruction 1</li>
+                <li>Step 2: Instruction 2</li>
+                <li>Step 3: Instruction 3</li>
+            </ol>
+        </div>
+        <h3>Nutritional Information:</h3>
+        <div class="wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nutrient</th>
+                        <th>Amount</th>
+                        <th>Daily Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Carbohydrates</td>
+                        <td>10g</td>
+                        <td>3%</td>
+                    </tr>
+                    <tr>
+                        <td>Protein</td>
+                        <td>20g</td>
+                        <td>40%</td>
+                    </tr>
+                    <tr>
+                        <td>Fat</td>
+                        <td>15g</td>
+                        <td>23%</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

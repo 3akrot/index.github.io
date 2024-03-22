@@ -85,3 +85,27 @@ h2{
             color: cornflowerblue;
             background: white;
         }
+     
+        input[type="checkbox"]{
+            position: absolute;
+            outline: none;
+            border: none;
+            top: 360px;
+            left: 70px;
+            border-bottom: 2px solid cornflowerblue;
+            background: none;
+            color: white;
+            padding: 5px;
+
+        }
+        label[for="terms"]{
+            position: absolute;
+            outline: none;
+            border: none;
+            top: 355px;
+            left: 90px;
+            background: none;
+            color: white;
+            padding: 5px;
+            font-size: 15px;
+        }

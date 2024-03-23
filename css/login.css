@@ -80,3 +80,6 @@ p.Register{
 p.forgotpassword:hover{
     color: cornflowerblue;
 }
+a {
+    color: white;
+}

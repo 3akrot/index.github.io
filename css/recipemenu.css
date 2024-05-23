@@ -8,6 +8,7 @@
 h1 {
 text-align: center;
 color: white;
+margin-bottom: 30px;
 }
 body {
   font-family: Arial, sans-serif;
@@ -17,7 +18,7 @@ body {
   background-color: var(--primary-black);
 }
 
-.container {
+.container-recipe {
   max-width: 800px;
 
   margin: 0 auto;
@@ -39,11 +40,15 @@ overflow: hidden;
 
 
 }
+h2 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
 .recipe p {
 margin-bottom: 0px;
 margin-top: 0px;
 }
-a {
+ p + a:not(.logo) {
 width: fit-content;
 display: block;
 padding: 5px;
